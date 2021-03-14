@@ -5,6 +5,7 @@ import ImageIcon from "@material-ui/icons/Image";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import CalendarTodayIcon from "@material-ui/icons/CalendarToday";
 import AssignmentIcon from "@material-ui/icons/Assignment";
+import Post from "./Post";
 const Feed = () => {
   return (
     <div className="feed">
@@ -26,6 +27,9 @@ const Feed = () => {
           />
         </div>
       </div>
+      <Post />
+      <Post />
+      <Post />
     </div>
   );
 };

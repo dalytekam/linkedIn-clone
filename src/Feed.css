@@ -1,6 +1,3 @@
-.feed {
-  /*border: 1px solid green;*/
-}
 form {
   display: flex;
   justify-content: space-evenly;
@@ -30,8 +27,7 @@ form button {
   border-bottom-width: 90%;
   margin-top: -2.5rem;
 }
-.feed-top {
-}
+
 .feed-container {
   display: grid;
   background-color: #fff;
