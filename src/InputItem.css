@@ -1,0 +1,14 @@
+.inputItem h5 {
+  color: #898989;
+  font-weight: 500;
+  margin-left: 0.3rem;
+}
+.inputItem {
+  display: flex;
+  align-items: center;
+}
+.inputItem:hover {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  cursor: pointer;
+}
