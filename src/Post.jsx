@@ -6,7 +6,7 @@ import CommentOutlinedIcon from "@material-ui/icons/CommentOutlined";
 import ShareOutlinedIcon from "@material-ui/icons/ShareOutlined";
 import SendIcon from "@material-ui/icons/Send";
 import InputItem from "./InputItem";
-const Post = ({ author, description, content, picurl }) => {
+const Post = ({ author, description, content, picUrl }) => {
   return (
     <div className="post">
       <div className="post__header">
@@ -14,17 +14,13 @@ const Post = ({ author, description, content, picurl }) => {
           <AccountCircleIcon fontSize="inherit" />
         </div>
         <div className="post__header__authorinfo">
-          <h4>Name</h4>
-          <p>title of the author</p>
+          <h4>{author}</h4>
+          <h5>{description}</h5>
         </div>
       </div>
       <div className="post__body">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore hic
-          consequuntur impedit porro harum architecto cum ipsa debitis, est
-          similique.
-          <img src="#" alt="" />
-        </p>
+        <p>{content}</p>
+        <img src={picUrl} alt="" />
       </div>
       <div className="post__actions">
         <InputItem Icon={ThumbUpAltOutlinedIcon} color="#898989" title="Like" />

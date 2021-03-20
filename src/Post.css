@@ -13,7 +13,7 @@
 }
 .post__header {
   display: grid;
-  grid-template-columns: 1fr 7fr;
+  grid-template-columns: 1fr 9fr;
 }
 .post__header__authorinfo h4 {
   font-weight: 600;
@@ -29,6 +29,14 @@
   align-items: center;
   margin-top: -0.5rem;
 }
-.post__header__authorinfo p {
-  margin-top: -1.5rem;
+.post__header__authorinfo h5 {
+  margin-top: -1.8rem;
+  font-weight: 600;
+  color: #898989;
+}
+.post__body img {
+  width: 100%;
+}
+.post__body {
+  margin-top: -1rem;
 }
